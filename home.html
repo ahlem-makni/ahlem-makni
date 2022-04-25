@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>accueil</title>
+        <link rel="stylesheet" href="acceuil.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        </head>
+        <style>
+            .main {
+            font-style: italic;
+          margin-left: 10px; /* Same as the width of the sidenav */
+          font-size: 28px; /* Increased text to enable scrolling */
+          padding: 0px 10px;
+        }
+        
+        table {
+          border-collapse: collapse;
+        }
+        
+        table,td{
+             border:2px solid grey;
+            margin: 10px ;
+            text-align: center;
+             padding :5 px;
+        }
+        
+            .attribut {
+                text-decoration: Underline;
+               font-size:grad;
+             font-family: inherit;
+            font-size: 20pt;
+            color:darkmagenta;
+            font-style: oblique;
+            
+            }
+            .navbar {
+             overflow: hidden;
+          background-color: #333;
+         height :70px;
+          top: 0;
+        } 
+        /* Active/current link */
+        .navbar a.active {
+          background-color: #666;
+          color: white;
+         
+        }
+        .input{
+            
+            
+            background-color: rgb(72, 72, 73);
+                border: none;
+                color: white;
+                padding: 20px 34px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+            
+        }
+        
+        
+        .input1{
+            
+            
+            background-color: rgb(153, 6, 87);
+                border: none;
+                color: white;
+                padding: 20px 34px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+                margin-left: 600px; 
+            
+        }
+        </style>
+    <body bgcolor=#F8D3AD>
+
+        <div class="header">
+           
+            <div class="text-block">
+                <h1> Prédiction de la maladie <span class="element">Skin Cancer </span></h1>
+                <p>Le cancer de la peau,<br>
+                </p>
+              </div>
+             
+            </div> 
+            
+            <div class="main">
+                <table  >
+                 <tr>
+                   <td>
+                   <div class="Images"><img src="image/Image1.jpg" ></div>
+                   <div class="attribut">Heart Disease </div>
+                   <div class="input"><input type="text", name='Heart_Disease', placeholder="enter 1"></div>
+                   
+                   </td>
+                  <td>
+                   <div class="Images"><img src= "image/Image2.jpg"></div>
+                   <div class="attribut">BMI</div>
+                   <div class="input"><input type="text", name='BMI', placeholder="enter 2"></div>
+                   
+                   </td>
+                   <td>
+                   <div class="Images"><img src="image/Image3.jpg" ></div>
+                   <div class="attribut">Smoking </div>
+                   <div class="input"><input type="text", name='Smoking', placeholder="enter 3"></div>
+                   </td>
+               </tr>
+               <tr> 
+                <td>
+                <div class="Images"><img src=image/Image4.jpg ></div>
+                <div class="attribut">Alcohol Drinking  </div>
+                <div class="input"><input type="text", name='Alcohol_Drinking', placeholder="enter 4"></div>
+                </td>
+                <td>
+                <div class="Images"><img src=image/Image5.jpg ></div>
+                <div class="attribut">Stroke </div>
+                <div class="input"><input type="text", name='Stroke', placeholder="enter 5"></div>
+                </td>
+                <td>
+                <div class="Images"><img src=image/Image6.jpg ></div>
+                <div class="attribut">Physical Health  </div>
+                <div class="input"><input type="text", name='Physical_Health', placeholder="enter 6"></div>
+                </td></tr>
+                  
+               <tr>
+                <td>
+                    <div class="Images"><img src=image/Image7.jpg ></div>
+                    <div class="attribut">Mental Health   </div>
+                    <div class="input"><input type="text", name='Mental_Health', placeholder="enter 7"></div>
+                    </td>
+                    <td>
+                    <div class="Images"><img src=image/Image8.jpg ></div>
+                    <div class="attribut">Diff Walking </div>
+                    <div class="input"><input type="text", name='Diff_Walking', placeholder="enter 8"></div>
+                    </td>
+                    <td>
+                    <div class="Images"><img src=image/Image9.jpg ></div>
+                    <div class="attribut">Sex</div>
+                    <div class="input"><input type="text", name='sex', placeholder="enter 9"></div>
+                    </td>  
+               </tr>
+               <tr>
+                <td>
+                    <div class="Images"><img src=image/Image10.jpg ></div>
+                    <div class="attribut">Age Category </div>
+                    <div class="input"><input type="text", name='Age_Category', placeholder="enter 10"></div>
+                    </td>
+                    <td>
+                    <div class="Images"><img src=image/Image11.png ></div>
+                    <div class="attribut">Race </div>
+                    <div class="input"><input type="text", name='Race', placeholder="enter 11"></div>
+                    </td>
+                    <td>
+                    <div class="Images"><img src=image/Image12.jpg ></div>
+                    <div class="attribut">Diabetic</div>
+                    <div class="input"><input type="text", name='Diabetic', placeholder="enter 12"></div>
+                    </td>  
+               </tr>
+               <tr>
+                <td>
+                    <div class="Images"><img src=image/Image13.png ></div>
+                    <div class="attribut">Physical Activity  </div>
+                    <div class="input"><input type="text", name='Physical_Activity', placeholder="enter 13"></div>
+                    </td>
+                    <td>
+                    <div class="Images"><img src=image/Image14.jpg ></div>
+                    <div class="attribut">Gen Health  </div>
+                    <div class="input"><input type="text", name='Gen_Health ', placeholder="enter 14"></div>
+                    </td>
+                    <td>
+                    <div class="Images"><img src=image/Image15.png ></div>
+                    <div class="attribut">Sleep Time </div>
+                    <div class="input"><input type="text", name='Sleep_Time', placeholder="enter 15"></div>
+                    </td>  
+               </tr>
+               <tr>
+                <td>
+                    <div class="Images"><img src=image/Image13.png ></div>
+                    <div class="attribut">Asthma  </div>
+                    <div class="input"><input type="text", name='Asthma', placeholder="enter 16"></div>
+                    </td>
+                    <td>
+                    <div class="Images"><img src=image/Image14.jpg ></div>
+                    <div class="attribut">Kidney Disease   </div>
+                    <div class="input"><input type="text", name='Kidney_Disease ', placeholder="enter 17"></div>
+                    </td>
+                     
+               </tr>
+            
+            
+            
+            </table>
+               </div>
+               <div class="input1">
+                    
+                <button><a href='after.html'>ArbreDécision</a></button> 
+                <button><a href='after.html'>RandomForest</a></button> 
+                <button><a href='after.html'>NaiveBayes</a></button> 
+                <button><a href='after.html'>LogisticRegression</a></button> 
+                </div>
+              
+               </body>
+               </html>
+               
+               
+    </body>
+</html>
